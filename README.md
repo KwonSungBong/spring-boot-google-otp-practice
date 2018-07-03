@@ -13,5 +13,7 @@ http://www.baeldung.com/spring-security-two-factor-authentication-with-soft-toke
 http://java.ihoney.pe.kr/449
 
 
+opt_key, user_id mapping table
+
 
 
