@@ -10,13 +10,19 @@ https://github.com/wstrange/GoogleAuth
 http://www.baeldung.com/spring-security-two-factor-authentication-with-soft-token
 
 
-http://java.ihoney.pe.kr/449
-
-
 opt_key, user_id mapping table
 
 
 https://www.google.com/recaptcha/api.js
+
+
+https://github.com/ralscha/springsecuritytotp
+
+
+http://www.baeldung.com/spring-redirect-and-forward
+
+
+https://spring.io/blog/2018/01/16/spring-session-2-0-0-released
 
 
 
