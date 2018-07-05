@@ -8,6 +8,9 @@
 <head>
     <title>Home</title>
 </head>
+<link rel="stylesheet" href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="/webjars/jquery/3.1.0/jquery.js"></script>
+<script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <body>
     <div>
         Home

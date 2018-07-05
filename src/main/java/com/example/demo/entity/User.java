@@ -18,10 +18,10 @@ public class User {
         this.password = password;
     }
 
-    public User(String email, String password, String otpCode) {
+    public User(String email, String password, String otpSecretKey) {
         this.email = email;
         this.password = password;
-        this.otpCode = otpCode;
+        this.otpSecretKey = otpSecretKey;
     }
 
     @Id
@@ -32,6 +32,10 @@ public class User {
 
     private String password;
 
+    private boolean enabledOtp = false;
+
     private String otpCode;
+
+    private String otpSecretKey;
 
 }
