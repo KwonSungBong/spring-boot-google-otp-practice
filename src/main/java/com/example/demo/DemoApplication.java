@@ -17,9 +17,7 @@ public class DemoApplication {
     @Bean
     public CommandLineRunner demo(UserRepository repository) {
         return (args) -> {
-            repository.save(new User("user1", "password"));
-            repository.save(new User("user2", "password"));
-            repository.save(new User("user3", "password"));
+            repository.save(new User("rnjstjdqhd39@naver.com", "password"));
         };
     }
 }
