@@ -25,5 +25,6 @@ http://www.baeldung.com/spring-redirect-and-forward
 https://spring.io/blog/2018/01/16/spring-session-2-0-0-released
 
 
+############################################################################
 
-
+opt 설정을 하는 경우 로그인 후 opt 코드 검사
