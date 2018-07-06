@@ -25,6 +25,20 @@
                 <form action="/user/logout" method="post">
                     <input type="submit" value="submit" />
                 </form>
+                <div>
+                    <c:choose>
+                        <c:when test="${user.enabledOtp eq true}">
+                            <a href="${pageContext.request.contextPath}/otp/disable">
+                                <span>opt 해제</span>
+                            </a>
+                        </c:when>
+                        <c:otherwise>
+                            <a href="${pageContext.request.contextPath}/otp/enable">
+                                <span>opt 등록</span>
+                            </a>
+                        </c:otherwise>
+                    </c:choose>
+                </div>
             </c:when>
             <c:otherwise>
                 <div>로그인</div>

@@ -28,6 +28,10 @@ public class UserController {
             HttpSession httpSession = request.getSession();
             httpSession.setAttribute("isLogin", true);
             httpSession.setAttribute("user", user);
+
+            if(user.isEnabledOtp()) {
+                return "redirect:/otp/check";
+            }
         }
         return "redirect:/home";
     }

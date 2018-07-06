@@ -18,6 +18,7 @@ public class DemoApplication {
     public CommandLineRunner demo(UserRepository repository) {
         return (args) -> {
             repository.save(new User("rnjstjdqhd39@naver.com", "password"));
+//            repository.save(new User("rnjstjdqhd39@naver.com", "password", "xxxxxxxxxxxx"));
         };
     }
 }

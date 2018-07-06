@@ -21,6 +21,7 @@ public class User {
     public User(String email, String password, String otpSecretKey) {
         this.email = email;
         this.password = password;
+        this.enabledOtp = true;
         this.otpSecretKey = otpSecretKey;
     }
 
